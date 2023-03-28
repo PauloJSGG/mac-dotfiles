@@ -199,6 +199,7 @@ cask 'vnc-viewer'
 # cask 'standard-notes' # Encrypted synced notes
 # cask 'signal'         # Link to encrypted mobile messenger
 cask 'whatsapp'
+cask 'messenger'
 # cask 'ledger-live'    # Crypto hardware wallet manager
 # cask 'mountain-duck'  # Mount remote storage locations
 # cask 'protonmail-bridge' # Decrypt ProtonMail emails
