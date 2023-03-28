@@ -30,6 +30,7 @@ treesitter.setup({
     "bash",
     "lua",
     "vim",
+    "ruby",
     "dockerfile",
     "gitignore",
   },

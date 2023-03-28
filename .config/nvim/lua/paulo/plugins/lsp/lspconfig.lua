@@ -88,6 +88,19 @@ lspconfig["emmet_ls"].setup({
   on_attach = on_attach,
   filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
 })
+-- configure ruby language server
+lspconfig["solargraph"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+  filetypes = { "ruby" },
+})
+
+-- configure ruby language server
+-- lspconfig["ruby_ls"].setup({
+--   capabilities = capabilities,
+--   on_attach = on_attach,
+--   filetypes = { "ruby" },
+-- })
 
 -- configure lua server (with special settings)
 lspconfig["lua_ls"].setup({
