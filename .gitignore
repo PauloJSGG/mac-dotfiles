@@ -10,6 +10,7 @@
 !.zshrc
 !.zprofile
 !.gitignore
+!README.md
 
 /.config/zsh/.zsh_sessions/
 # etc...
