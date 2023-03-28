@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.vimrc
+!*.vim
+!*.bashrc
+!*.config/
+!.brewfile
+!.zshrc
+!.zprofile
+!.gitignore
+
+/.config/zsh/.zsh_sessions/
+# etc...
