@@ -15,6 +15,7 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 HISTFILE=~/.zsh_history
 
 # source
+plug "$HOME/.config/zsh/git.zsh"
 plug "$HOME/.config/zsh/aliases.zsh"
 plug "$HOME/.config/zsh/exports.zsh"
 
