@@ -56,9 +56,9 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- copilot
 -- next
-keymap.set("i", "<leader>cn", "<Plug>(copilot-next)") -- next suggestion
+-- keymap.set("i", "<leader>cn", "<Plug>(copilot-next)") -- next suggestion
 -- previous
-keymap.set("i", "<leader>cp", "<Plug>(copilot-previous)") -- previous suggestion
+-- keymap.set("i", "<leader>cp", "<Plug>(copilot-previous)") -- previous suggestion
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
