@@ -113,6 +113,9 @@ return packer.startup(function(use)
   -- github copilot
   use("github/copilot.vim")
 
+  -- diffvew
+  use("sindrets/diffview.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
