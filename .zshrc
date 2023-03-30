@@ -22,7 +22,7 @@ plug "zap-zsh/zap-prompt"
 plug "zap-zsh/fzf"
 plug "zap-zsh/exa"
 plug "zsh-users/zsh-syntax-highlighting"
-plug "jeffreytse/zsh-vi-mode"
+# plug "jeffreytse/zsh-vi-mode"
 
 # brewfile
 export HOMEBREW_BREWFILE=~/.brewfile
