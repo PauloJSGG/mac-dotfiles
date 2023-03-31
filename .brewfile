@@ -12,7 +12,7 @@
 #############################################################
 
 # Options
-cask_args appdir: '~/Applications', require_sha: true
+cask_args appdir: '~/Casks', require_sha: true
 
 # Taps
 tap 'homebrew/bundle'
@@ -207,7 +207,8 @@ cask 'messenger'
 
 # Browsers
 cask 'firefox'
-# cask 'chromium'
+cask 'google-chrome'
+# cask 'chromium', args: { require_sha: false } 
 # cask 'orion'
 
 #############################################################

@@ -14,6 +14,18 @@ opt.autoindent = true -- copy indent from current line when starting new one
 -- line wrapping
 opt.wrap = true -- disable line wrapping
 
+-- Primeagen opts
+opt.hlsearch = true
+opt.incsearch = true
+
+opt.scrolloff = 8
+opt.signcolumn = "yes"
+opt.isfname:append("@-@")
+
+opt.updatetime = 50
+
+opt.colorcolumn = "80"
+-- end of Primeagen
 -- search settings
 opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you include mixed case in your search, assumes you want case-sensitive

@@ -116,6 +116,9 @@ return packer.startup(function(use)
   -- diffvew
   use("sindrets/diffview.nvim")
 
+  -- check map conflicts
+  use("folke/which-key.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
