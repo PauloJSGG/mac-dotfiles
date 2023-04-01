@@ -16,7 +16,7 @@ note: some packages might need extra configuration, like RVM
 for neovim, if you have any problems you can run :PackerSync, or :checkhealth to see if 
 theres any problems with some of the packages
 
-1 - install rvm
+1 - install rvm `\curl -sSL https://get.rvm.io | bash`
 
 2 - install nvm
 
