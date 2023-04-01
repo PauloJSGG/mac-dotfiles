@@ -1,16 +1,3 @@
-#############################################################
-# ~/.Brewfile - Software Installs for MacOS                 #
-#                                                           #
-# List of packages to be installed / updated via Homebrew   #
-# Apps are sorted by category, and arranged alphabetically  #
-# Be sure to delete / comment out anything you do not need  #
-# Usage, run: $ brew bundle --global --file $HOME/.Brewfile #
-# Source GH repository: https://github.com/lissy93/Brewfile #
-# See brew docs for more info: https://docs.brew.sh/Manpage #
-#                                                           #
-# License: MIT © Alicia Sykes 2022 <https://aliciasykes.com>#
-#############################################################
-
 # Options
 # cask_args appdir: '~/Casks', require_sha: true
 
@@ -24,6 +11,7 @@ tap 'espanso/espanso'
 tap 'jesseduffield/lazygit'
 tap 'koekeishiya/formulae'
 tap 'kdash-rs/kdash'
+tap "lencx/chatgpt" git@github.com:lencx/ChatGPT.git
 
 #############################################################
 # Command Line                                              #
@@ -200,6 +188,7 @@ cask 'vnc-viewer'
 # cask 'signal'         # Link to encrypted mobile messenger
 cask 'whatsapp'
 cask 'messenger'
+cask 'zoom'
 # cask 'ledger-live'    # Crypto hardware wallet manager
 # cask 'mountain-duck'  # Mount remote storage locations
 # cask 'protonmail-bridge' # Decrypt ProtonMail emails
@@ -208,7 +197,7 @@ cask 'messenger'
 # Browsers
 cask 'firefox'
 cask 'google-chrome'
-# cask 'chromium', args: { require_sha: false } 
+cask 'chromium', args: { require_sha: false, no_quarantine: true } 
 # cask 'orion'
 
 #############################################################
