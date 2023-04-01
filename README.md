@@ -9,6 +9,8 @@ Clone this repo to the user root folder
 
 4 - install tmux plugin manager `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
+5 - open tmux and run ctrl+a+I to install the plugins
+
 [make strings]
 note: some packages might need extra configuration, like RVM
 for neovim, if you have any problems you can run :PackerSync, or :checkhealth to see if 
