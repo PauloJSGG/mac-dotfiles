@@ -7,7 +7,7 @@ Clone this repo to the user root folder
 
 3 - install zap zsh `<(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh)`
 
-4 - install tmux plugin manager git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+4 - install tmux plugin manager `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
 [make strings]
 note: some packages might need extra configuration, like RVM
