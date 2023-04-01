@@ -11,7 +11,7 @@ tap 'espanso/espanso'
 tap 'jesseduffield/lazygit'
 tap 'koekeishiya/formulae'
 tap 'kdash-rs/kdash'
-tap "lencx/chatgpt" git@github.com:lencx/ChatGPT.git
+#tap "lencx/chatgpt" git@github.com:lencx/ChatGPT.git
 
 #############################################################
 # Command Line                                              #
