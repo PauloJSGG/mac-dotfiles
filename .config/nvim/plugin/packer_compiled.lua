@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/Users/paulojsgg/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  harpoon = {
+    loaded = true,
+    path = "/Users/paulojsgg/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/theprimeagen/harpoon"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/paulojsgg/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",

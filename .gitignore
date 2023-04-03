@@ -5,7 +5,11 @@
 !*.vimrc
 !*.vim
 !*.bashrc
-!*.config/
+!*.config/kitty/
+!*.config/nvim/
+!*.config/skhd/
+!*.config/yabai/
+!*.config/zsh/
 !.brewfile
 !.tmux.conf
 !.zshrc
@@ -14,5 +18,5 @@
 !README.md
 
 /.config/zsh/.zsh_sessions/
-/.config/nvim/plugin/packer_compiled*
+*.config/nvim/plugin/packer_compiled.lua
 # etc...

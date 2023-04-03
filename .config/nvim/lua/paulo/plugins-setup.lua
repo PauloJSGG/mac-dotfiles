@@ -119,6 +119,9 @@ return packer.startup(function(use)
   -- check map conflicts
   use("folke/which-key.nvim")
 
+  -- harpoon
+  use("theprimeagen/harpoon")
+
   if packer_bootstrap then
     require("packer").sync()
   end
