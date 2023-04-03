@@ -186,6 +186,7 @@ cask 'vnc-viewer'
 # cask 'tresorit'       # Encrypted file backup (proprietary)
 # cask 'standard-notes' # Encrypted synced notes
 # cask 'signal'         # Link to encrypted mobile messenger
+cask 'slack'
 cask 'whatsapp'
 cask 'messenger'
 cask 'zoom'
@@ -195,9 +196,10 @@ cask 'zoom'
 # cask 'protonvpn'      # Client app for ProtonVPN
 
 # Browsers
-cask 'firefox'
+# cask 'firefox'
 cask 'google-chrome'
-cask 'chromium', args: { require_sha: false, no_quarantine: true } 
+cask 'thorium'
+# cask 'chromium', args: { require_sha: false, no_quarantine: true } 
 # cask 'orion'
 
 #############################################################
