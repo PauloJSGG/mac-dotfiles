@@ -189,7 +189,9 @@ cask 'vnc-viewer'
 cask 'slack'
 cask 'whatsapp'
 cask 'messenger'
+cask 'notion'
 cask 'zoom'
+cask 'openvpn-connect'
 # cask 'ledger-live'    # Crypto hardware wallet manager
 # cask 'mountain-duck'  # Mount remote storage locations
 # cask 'protonmail-bridge' # Decrypt ProtonMail emails
@@ -198,7 +200,7 @@ cask 'zoom'
 # Browsers
 # cask 'firefox'
 cask 'google-chrome'
-cask 'thorium'
+cask 'alex313031-thorium'
 # cask 'chromium', args: { require_sha: false, no_quarantine: true } 
 # cask 'orion'
 
