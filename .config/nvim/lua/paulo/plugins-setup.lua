@@ -122,6 +122,9 @@ return packer.startup(function(use)
   -- harpoon
   use("theprimeagen/harpoon")
 
+  -- hologram
+  use("edluffy/hologram.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
