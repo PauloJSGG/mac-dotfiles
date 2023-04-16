@@ -192,6 +192,7 @@ cask 'messenger'
 cask 'notion'
 cask 'zoom'
 cask 'openvpn-connect'
+cask 'logi-options-plus'
 # cask 'ledger-live'    # Crypto hardware wallet manager
 # cask 'mountain-duck'  # Mount remote storage locations
 # cask 'protonmail-bridge' # Decrypt ProtonMail emails
